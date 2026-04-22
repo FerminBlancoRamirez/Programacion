@@ -26,7 +26,23 @@ public class Testeo {
         System.out.println(feroz instanceof Animal); //True porque si es un animal
         //System.out.println(Scar instanceof Perro); //No te deja porque no esta en el ramal de Perro
         System.out.println(Scar instanceof Felino);//true
+        System.out.println(feroz instanceof Lobo);// util es un loboç
+        System.out.println(asia instanceof Gato);
 
-        System.out.println(feroz instanceof Lobo);// util es un lobo
+        //Downcasting
+
+        Perro p=(Perro) mafalda;
+
+        Canido ca=(Canido) feroz;
+
+        Lobo lob=(Lobo) feroz;
+
+        Leon le= (Leon) Scar;
+
+        //Gato ga= (Perro) asia;
+
+        //Gato ga= (Leon) asia;
+
+        Felino fe= (Felino) asia;
     }
 }
