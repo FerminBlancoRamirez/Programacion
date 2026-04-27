@@ -78,6 +78,8 @@ public class Ciclista implements Comparable<Ciclista> {
                 '}';
     }
 
+
+
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;

@@ -34,5 +34,21 @@ public class LogicaCarrera {
         }
     }
 
+    public void correrEtapas(ArrayList<Ciclista> peloton, int numeroEtapa){
+        System.out.println("--Etapa numero "+numeroEtapa+"--");
+        for (Ciclista corredor: peloton){
+            //corres la etapa
+            corredor.correrEtapa();//tu decides los valores en segundos
+        }
+        ordenarPorTiempo(peloton);
+        mostrarClasificacion(peloton);
+        System.out.println("-------------------------------------------------------------------");
+        actualizarClasificacionGeneral(peloton);
+        System.out.println("La clasificacion general queda asi:");
+        mostrarClasificacion(peloton);
+        System.out.println(" ");
+        System.out.println(" ");
+    }
+
 
 }
