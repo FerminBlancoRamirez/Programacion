@@ -41,12 +41,13 @@ public class Velocista extends Ciclista{
     }
 
 
-   /* @Override
+    @Override
     public void correrEtapa(){
        Random rd = new Random();
-        int tiempoEtapa= rd.nextInt(21600-7200)+1+7200-5*(int)potenciaPromedio;
-        this.tiempo=tiempoEtapa;
+        int tiempoEtapa= rd.nextInt(21600-7200)+1+7200;
+        int tiempoRestado=tiempoEtapa-(7*(int)potenciaPromedio+5*(int)this.velocidadPromedio);
+        this.tiempo=tiempoRestado;
         this.tiempoAcumulado+=tiempoEtapa;
-    }*/
+    }
 }
 

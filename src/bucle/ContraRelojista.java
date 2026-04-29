@@ -1,5 +1,7 @@
 package bucle;
 
+import java.util.Random;
+
 public class ContraRelojista extends Ciclista{
     protected double velocidadMaxima;
 
@@ -27,13 +29,13 @@ public class ContraRelojista extends Ciclista{
                 '}';
     }
 
-    /* Podriamos cambiar la forma en que corre la etapa y calcula los tiempos
-    * @Override
-    * public void correrEtapa(){
-    * Random random =new Random();
-    *
-    * // Random rd = new Random();
-        int tiempoEtapa= rd.nextInt(21600-7200)+1+7200;
-        this.tiempo=tiempoEtapa;
-        this.tiempoAcumulado+=tiempoEtapa;*/
+     @Override
+     public void correrEtapa() {
+         Random rd = new Random();
+         // Random rd = new Random();
+         int tiempoEtapa = rd.nextInt(21600 - 7200) + 1 + 7200;
+         double tiempoRestado=tiempoEtapa -(10*this.velocidadMaxima);
+         this.tiempo = (int)tiempoRestado;
+         this.tiempoAcumulado += tiempoEtapa;
+     }
 }

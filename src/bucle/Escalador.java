@@ -1,5 +1,7 @@
 package bucle;
 
+import java.util.Random;
+
 public class Escalador extends Ciclista{
     protected double aceleracionPromedio;
     protected double gradoRampa;
@@ -38,13 +40,15 @@ public class Escalador extends Ciclista{
                 '}';
     }
 
-    /* Podriamos cambiar la forma en que corre la etapa y calcula los tiempos
-    * @Override
-    * public void correrEtapa(){
-    * Random random =new Random();
-    *
-    * // Random rd = new Random();
-        int tiempoEtapa= rd.nextInt(21600-7200)+1+7200;
-        this.tiempo=tiempoEtapa;
-        this.tiempoAcumulado+=tiempoEtapa;*/
+
+     @Override
+     public void correrEtapa() {
+         Random rd = new Random();
+
+         // Random rd = new Random();
+         int tiempoEtapa = rd.nextInt(21600 - 7200) + 1 + 7200;
+         int tiempoRestado= tiempoEtapa-(5*(int)this.aceleracionPromedio +4*(int)this.gradoRampa);
+         this.tiempo = tiempoRestado;
+         this.tiempoAcumulado += tiempoEtapa;
+     }
 }
