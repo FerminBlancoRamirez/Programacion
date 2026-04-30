@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4a25506-85a4-4231-b1b9-5d3b500064dd" name="Changes" comment="Actualizacion">
-      <change afterPath="$PROJECT_DIR$/src/bucle/Equipo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bucle/ContraRelojista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bucle/ContraRelojista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bucle/Escalador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bucle/Escalador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bucle/Velocista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bucle/Velocista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bucle/Equipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bucle/Equipo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bucle/LogicaCarrera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bucle/LogicaCarrera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bucle/Testeo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bucle/Testeo2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="107" />
+    <option name="cachedIndexableFilesCount" value="108" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -178,6 +178,7 @@
       <workItem from="1777271100879" duration="4569000" />
       <workItem from="1777282595904" duration="61000" />
       <workItem from="1777461639989" duration="4704000" />
+      <workItem from="1777541341576" duration="5658000" />
     </task>
     <task id="LOCAL-00001" summary="PORFIN ME CAGO EN DIOS">
       <option name="closed" value="true" />

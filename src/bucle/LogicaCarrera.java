@@ -26,11 +26,27 @@ public class LogicaCarrera {
             lista.get(i).setPosicionGen(i + 1);
         }
     }
+    public void actualizarClasificacionGeneralEquipos(List<Equipo> lista) {
+        // Primero ordenamos por el acumulado
+        lista.sort(Comparator.comparingInt(Equipo::getTiempoAcumuladoE));
+
+        // Luego asignamos la posición según el orden de la lista
+        for (int i = 0; i < lista.size(); i++) {
+            lista.get(i).setPosicionGeneral(i + 1);
+        }
+    }
 
     public void mostrarClasificacion(ArrayList<Ciclista> peloton){
         int pos=1;
         for (Ciclista c1:peloton){
             System.out.println("Posicion "+(pos++)+" "+c1);
+        }
+    }
+
+    public void mostrarClasificacionEquipos(ArrayList<Equipo> equipos){
+        int pos=1;
+        for (Equipo e1:equipos){
+            System.out.println("Posicion "+(pos++)+" "+e1);
         }
     }
 
