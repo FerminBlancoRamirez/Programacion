@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ChangeListManager">
     <list default="true" id="e9c830ef-a21f-477a-a696-4311f105bc6a" name="Changes" comment="" />
+=======
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4a25506-85a4-4231-b1b9-5d3b500064dd" name="Changes" comment="Actualizacion">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bucle/Equipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bucle/Equipo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bucle/LogicaCarrera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bucle/LogicaCarrera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bucle/Testeo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bucle/Testeo2.java" afterDir="false" />
+    </list>
+>>>>>>> c1ac4fc27ae699b596f218b8ad12df6d2bc91c67
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -26,10 +40,51 @@
   "associatedIndex": 1
 }]]></component>
   <component name="ProjectId" id="3CcqGXaRIXE2LSzoNFNgPUBge11" />
+=======
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="108" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FerminBlancoRamirez&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FerminBlancoRamirez/Programacion.git&quot;,
+    &quot;accountId&quot;: &quot;9b38af2f-783a-48db-86a6-6137e0017286&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3Cc5zrD6aoQF00HqvVwoUtzrPHY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+>>>>>>> c1ac4fc27ae699b596f218b8ad12df6d2bc91c67
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -58,9 +113,211 @@
       <updated>1776695110440</updated>
       <workItem from="1776695111574" duration="25000" />
     </task>
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testeo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testeo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bucle.Testeo.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Testeo2">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EquipoFutbol.Test1" />
+      <module name="Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EquipoFutbol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EquipoFutbol.Test2" />
+      <module name="Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EquipoFutbol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BIO.Testeo" />
+      <module name="Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BIO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testeo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucle.Testeo2" />
+      <module name="Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bucle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bucle.Testeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucle.Testeo" />
+      <module name="Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bucle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Testeo2" />
+        <item itemvalue="Application.bucle.Testeo" />
+        <item itemvalue="Application.Testeo" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4a25506-85a4-4231-b1b9-5d3b500064dd" name="Changes" comment="" />
+      <created>1776672287863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776672287863</updated>
+      <workItem from="1776672289495" duration="481000" />
+      <workItem from="1776672796245" duration="12000" />
+      <workItem from="1776753541816" duration="5623000" />
+      <workItem from="1776857146033" duration="4643000" />
+      <workItem from="1776861884251" duration="481000" />
+      <workItem from="1776926390157" duration="11000" />
+      <workItem from="1776936712455" duration="5282000" />
+      <workItem from="1776943496035" duration="30000" />
+      <workItem from="1777271100879" duration="4569000" />
+      <workItem from="1777282595904" duration="61000" />
+      <workItem from="1777461639989" duration="4704000" />
+      <workItem from="1777541341576" duration="5658000" />
+    </task>
+    <task id="LOCAL-00001" summary="PORFIN ME CAGO EN DIOS">
+      <option name="closed" value="true" />
+      <created>1776672474312</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776672474312</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Otros testeos de clase cole">
+      <option name="closed" value="true" />
+      <created>1776754980084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776754980085</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ejercicios de herencia">
+      <option name="closed" value="true" />
+      <created>1776758901364</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776758901364</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ejercicios de herencia animales">
+      <option name="closed" value="true" />
+      <created>1776861770113</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776861770113</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ejercicios de herencia animales">
+      <option name="closed" value="true" />
+      <created>1776862246088</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776862246088</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ejercicios de herencia animales">
+      <option name="closed" value="true" />
+      <created>1776941931314</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776941931314</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Actualizacion y mejora en el testeo y LogicaCarrera">
+      <option name="closed" value="true" />
+      <created>1777273018058</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1777273018058</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Actualizacion">
+      <option name="closed" value="true" />
+      <created>1777275641673</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1777275641673</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+>>>>>>> c1ac4fc27ae699b596f218b8ad12df6d2bc91c67
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PORFIN ME CAGO EN DIOS" />
+    <MESSAGE value="Otros testeos de clase cole" />
+    <MESSAGE value="Ejercicios de herencia" />
+    <MESSAGE value="Ejercicios de herencia animales" />
+    <MESSAGE value="Actualizacion y mejora en el testeo y LogicaCarrera" />
+    <MESSAGE value="Actualizacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion" />
+  </component>
+>>>>>>> c1ac4fc27ae699b596f218b8ad12df6d2bc91c67
 </project>

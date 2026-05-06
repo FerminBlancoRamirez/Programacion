@@ -74,7 +74,6 @@ public class Ciclista implements Comparable<Ciclista> {
                 ", nombre='" + nombre + '\'' +
                 ", tiempo=" + tiempo +
                 ", tiempoAcumulado=" + tiempoAcumulado +
-                ", posicionGeneral=" + posicionGen +
                 '}';
     }
 

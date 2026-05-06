@@ -13,6 +13,7 @@ public class Testeo {
         Ciclista c4=new Ciclista(4 ,"David Alfaya");
         Ciclista c5=new Ciclista(5 ,"Antonio Alfaya");
 
+        int numeroEtapa=0;
         ArrayList<Ciclista> peloton=new ArrayList<>();
         peloton.add(c1);
         peloton.add(c2);
@@ -20,25 +21,18 @@ public class Testeo {
         peloton.add(c4);
         peloton.add(c5);
 
-        for (Ciclista corredor: peloton){
-            corredor.correrEtapa();
-        }
 
         LogicaCarrera lC=new LogicaCarrera();
+        //Se corre la primera etapa
+        lC.correrEtapas(peloton, 1);
+        //Se corre la segunda etapa
+        lC.correrEtapas(peloton, 2);
+        //Se corre la tercera etapa
+        lC.correrEtapas(peloton, 3);
 
-        lC.ordenarPorTiempoAcumulado(peloton);
-        lC.actualizarClasificacionGeneral(peloton);
 
 
-        lC.mostrarClasificacion(peloton);
-        System.out.println("-------------------------------------------------------------------");
 
-        for (Ciclista corredor: peloton){
-            corredor.correrEtapa();
-        }
-        lC.actualizarClasificacionGeneral(peloton);
-
-        lC.mostrarClasificacion(peloton);
 
     }
 }
