@@ -23,7 +23,8 @@ public class Camion extends Vehiculo {
         valorPeajeEje = valorEje;
     }
 
-    void imprimir() {
+    @Override
+    public void imprimir() {
         System.out.println("Placa = " + placa);
         System.out.println("Número de ejes = " + numeroEjes);
         System.out.println("Valor del peaje = " + valorPeajeEje);

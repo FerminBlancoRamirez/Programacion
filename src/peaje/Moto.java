@@ -16,8 +16,8 @@ public class Moto extends Vehiculo {
     static void setValorPeaje(int valor) {
         valorPeaje = valor;
     }
-
-    void imprimir() {
+    @Override
+    public void imprimir() {
         System.out.println("Placa = " + placa);
         System.out.println("Valor del peaje = " + valorPeaje);
     }

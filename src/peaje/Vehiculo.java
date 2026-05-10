@@ -7,4 +7,6 @@ public abstract class Vehiculo {
     public Vehiculo(String placa){
         this.placa=placa;
     }
+
+    public abstract void imprimir();
 }

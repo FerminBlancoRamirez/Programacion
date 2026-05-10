@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="abefdd97-6b96-434a-8caf-be828302925f" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peaje/Camion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peaje/Camion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peaje/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peaje/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peaje/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peaje/Moto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peaje/Peaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peaje/Peaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peaje/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peaje/Vehiculo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +53,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.TesteoVehiculos.executor": "Run",
+    "Application.TesteoPeaje.executor": "Run",
+    "Application.TesteoVehiculos.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -58,7 +67,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TesteoPeaje">
+    <configuration name="TesteoPeaje" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="peaje.TesteoPeaje" />
+      <module name="Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="peaje.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TesteoVehiculos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Vehiculo.TesteoVehiculos" />
       <module name="Programacion" />
@@ -74,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteoPeaje" />
         <item itemvalue="Application.TesteoVehiculos" />
       </list>
     </recent_temporary>
@@ -94,7 +117,9 @@
       <option name="presentableId" value="Default" />
       <updated>1778091382696</updated>
       <workItem from="1778091384991" duration="186000" />
-      <workItem from="1778138774682" duration="316000" />
+      <workItem from="1778138774682" duration="347000" />
+      <workItem from="1778160398878" duration="3000" />
+      <workItem from="1778412701730" duration="1852000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -104,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778091564908</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".">
+      <option name="closed" value="true" />
+      <created>1778139106708</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778139106708</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

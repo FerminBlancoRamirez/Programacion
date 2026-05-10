@@ -1,5 +1,6 @@
 package peaje;
 
+import java.util.ArrayList;
 import java.util.Vector;
 
 public class Peaje {
@@ -15,7 +16,7 @@ public class Peaje {
      * Atributo que identifica el conjunto de vehículos que llega a la estación de
      * peaje
      */
-    Vector vehiculos;
+   ArrayList<Vehiculo> vehiculos;
     /*
      * Atributo que identifica el total de dinero recolectado por la estación de
      * peaje
@@ -44,7 +45,7 @@ public class Peaje {
     Peaje(String nombre, String departamento) {
         this.nombre = nombre;
         this.departamento = departamento;
-        vehiculos = new Vector(); // Crea el vector de vehículos
+        vehiculos = new ArrayList<>(); // Crea el vector de vehículos
     }
 
     /**
@@ -91,6 +92,9 @@ public class Peaje {
         vehiculos.add(vehiculo);
     }
 
+    public ArrayList<Vehiculo> getVehiculos() {
+        return vehiculos;
+    }
 
     public int calcularPeaje(Vehiculo vehiculo) {
         if (vehiculo instanceof Carro) { /*

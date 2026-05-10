@@ -18,7 +18,8 @@ public class Carro extends Vehiculo {
     }
 
 
-    void imprimir() {
+    @Override
+    public void imprimir() {
         System.out.println("Placa = " + placa);
         System.out.println("Valor del peaje = " + valorPeaje);
     }
