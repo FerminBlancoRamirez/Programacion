@@ -18,6 +18,13 @@ public class Camion extends Vehiculo {
         return valorPeajeEje;
     }
 
+    public int getNumeroEjes() {
+        return numeroEjes;
+    }
+
+    public void setNumeroEjes(int numeroEjes) {
+        this.numeroEjes = numeroEjes;
+    }
 
     static void setValorPeajeEje(int valorEje) {
         valorPeajeEje = valorEje;

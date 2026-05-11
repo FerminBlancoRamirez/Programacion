@@ -7,15 +7,16 @@
     <list default="true" id="abefdd97-6b96-434a-8caf-be828302925f" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/peaje/Camion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peaje/Camion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/peaje/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peaje/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/peaje/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peaje/Moto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/peaje/Peaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peaje/Peaje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/peaje/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peaje/Vehiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peaje/TesteoPeaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peaje/TesteoPeaje.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="150" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,9 +38,13 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/FerminBlancoRamirez/Programacion.git&quot;,
-    &quot;accountId&quot;: &quot;e62fb170-b942-43b8-9942-ffa38ea38827&quot;
+    &quot;accountId&quot;: &quot;9b38af2f-783a-48db-86a6-6137e0017286&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -51,29 +56,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.TesteoPeaje.executor": "Run",
-    "Application.TesteoVehiculos.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.TesteoCompo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteoPeaje.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteoRecta.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteoTrianguloDeCirculos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteoVehiculos.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.TesteoPeaje">
+}</component>
+  <component name="RunManager" selected="Application.TesteoRecta">
+    <configuration name="TesteoCompo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compo.TesteoCompo" />
+      <module name="Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TesteoPeaje" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="peaje.TesteoPeaje" />
       <module name="Programacion" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="peaje.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteoRecta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compo.TesteoRecta" />
+      <module name="Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteoTrianguloDeCirculos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compo.TesteoTrianguloDeCirculos" />
+      <module name="Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,6 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteoRecta" />
+        <item itemvalue="Application.TesteoTrianguloDeCirculos" />
+        <item itemvalue="Application.TesteoCompo" />
         <item itemvalue="Application.TesteoPeaje" />
         <item itemvalue="Application.TesteoVehiculos" />
       </list>
@@ -120,6 +176,8 @@
       <workItem from="1778138774682" duration="347000" />
       <workItem from="1778160398878" duration="3000" />
       <workItem from="1778412701730" duration="1852000" />
+      <workItem from="1778485714966" duration="1257000" />
+      <workItem from="1778487093721" duration="275000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -137,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778139106708</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=".">
+      <option name="closed" value="true" />
+      <created>1778481366065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1778481366066</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

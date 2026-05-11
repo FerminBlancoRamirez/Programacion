@@ -12,6 +12,8 @@ public class TesteoPeaje {
         for (Vehiculo vehiculo: coches){
             if (vehiculo instanceof Carro){
                 System.out.println("El carro: ");
+                //En vez de crear un metodo abstracto en la clase vehiculo para imprimir
+                //puedes castear la clase para usar los metodos propios de cada clase
                 vehiculo.imprimir();
                 System.out.println("Tiene que pagar un peaje de: ");
                 System.out.println(peaje.calcularPeaje(vehiculo)+" euros");
