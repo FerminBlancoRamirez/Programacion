@@ -1,10 +1,10 @@
 package charlin;
 
 public class Productos {
-    private int id=0;
+    private int id = 0;
     private String nombre;
     private String descripcion;
-    private double precio=0;
+    private double precio = 0;
 
     public Productos(int id, String nombre, String descripcion, double precio) {
         this.id = id;

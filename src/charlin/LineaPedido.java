@@ -1,16 +1,16 @@
 package charlin;
 
 public class LineaPedido {
-    private int id=0;
-    private int cantidad=0;
-    private double subTotal=0;
+    private int id = 0;
+    private int cantidad = 0;
+    private double subTotal = 0;
     private Productos producto;
 
     public LineaPedido(int id, int cantidad, Productos producto) {
         this.id = id;
         this.cantidad = cantidad;
-        this.producto=producto;
-        subTotal= producto.getPrecio()*cantidad;
+        this.producto = producto;
+        subTotal = producto.getPrecio() * cantidad;
     }
 
     public int getId() {
@@ -44,7 +44,6 @@ public class LineaPedido {
     public void setSubTotal(double subTotal) {
         this.subTotal = subTotal;
     }
-
 
 
     @Override

@@ -3,13 +3,13 @@ package charlin;
 import java.util.ArrayList;
 
 public class OrdenCompra {
-    private int id=0;
+    private int id = 0;
     private ArrayList<LineaPedido> orden;
     private double totalOrden;
 
     public OrdenCompra(int id) {
         this.id = id;
-        orden=new ArrayList<>();
+        orden = new ArrayList<>();
     }
 
     public int getId() {
@@ -29,15 +29,15 @@ public class OrdenCompra {
     }
 
     //Calcular el TotalDeOrden
-    public void calcularTotalOrden(){
-        for (LineaPedido pedidos: orden){
-            this.totalOrden+= pedidos.getSubTotal();
+    public void calcularTotalOrden() {
+        for (LineaPedido pedidos : orden) {
+            this.totalOrden += pedidos.getSubTotal();
         }
     }
 
     //Añadir Item a coleccion
-    public void añadirItem(int id, int cantidad, Productos productos){
-        orden.add(new LineaPedido(id, cantidad,  productos));
+    public void añadirItem(int id, int cantidad, Productos productos) {
+        orden.add(new LineaPedido(id, cantidad, productos));
     }
 
     @Override

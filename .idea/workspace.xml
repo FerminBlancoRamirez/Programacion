@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="abefdd97-6b96-434a-8caf-be828302925f" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/peaje/Camion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peaje/Camion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/peaje/TesteoPeaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peaje/TesteoPeaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/charlin/LineaPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/charlin/LineaPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/charlin/OrdenCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/charlin/OrdenCompra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/charlin/Productos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/charlin/Productos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/charlin/Testeo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/charlin/Testeo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,13 +17,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="150" />
+    <option name="cachedIndexableFilesCount" value="164" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -56,38 +59,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.TesteoCompo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteoPeaje.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteoRecta.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteoTrianguloDeCirculos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteoVehiculos.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FormacionFutbol.Testeo.executor": "Run",
+    "Application.Testeo.executor": "Run",
+    "Application.TesteoBiblioteca.executor": "Run",
+    "Application.TesteoCoche.executor": "Run",
+    "Application.TesteoCompo.executor": "Run",
+    "Application.TesteoPeaje.executor": "Run",
+    "Application.TesteoRecta.executor": "Run",
+    "Application.TesteoTrianguloDeCirculos.executor": "Run",
+    "Application.TesteoVehiculos.executor": "Debug",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.TesteoRecta">
-    <configuration name="TesteoCompo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="compo.TesteoCompo" />
+}]]></component>
+  <component name="RunManager" selected="Application.FormacionFutbol.Testeo">
+    <configuration name="FormacionFutbol.Testeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FormacionFutbol.Testeo" />
       <module name="Programacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="compo.*" />
+          <option name="PATTERN" value="FormacionFutbol.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +102,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteoPeaje" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="peaje.TesteoPeaje" />
+    <configuration name="Testeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="charlin.Testeo" />
       <module name="Programacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="peaje.*" />
+          <option name="PATTERN" value="charlin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteoBiblioteca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="municipal.TesteoBiblioteca" />
+      <module name="Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="municipal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteoCoche" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Carro.TesteoCoche" />
+      <module name="Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Carro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,39 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteoTrianguloDeCirculos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="compo.TesteoTrianguloDeCirculos" />
-      <module name="Programacion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="compo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteoVehiculos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Vehiculo.TesteoVehiculos" />
-      <module name="Programacion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Vehiculo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FormacionFutbol.Testeo" />
+        <item itemvalue="Application.Testeo" />
+        <item itemvalue="Application.TesteoCoche" />
+        <item itemvalue="Application.TesteoBiblioteca" />
         <item itemvalue="Application.TesteoRecta" />
-        <item itemvalue="Application.TesteoTrianguloDeCirculos" />
-        <item itemvalue="Application.TesteoCompo" />
-        <item itemvalue="Application.TesteoPeaje" />
-        <item itemvalue="Application.TesteoVehiculos" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +185,15 @@
       <workItem from="1778412701730" duration="1852000" />
       <workItem from="1778485714966" duration="1257000" />
       <workItem from="1778487093721" duration="275000" />
+      <workItem from="1778487601710" duration="58000" />
+      <workItem from="1778489127496" duration="4000" />
+      <workItem from="1778501008516" duration="10000" />
+      <workItem from="1778570054114" duration="2824000" />
+      <workItem from="1778579631911" duration="128000" />
+      <workItem from="1778586339035" duration="1007000" />
+      <workItem from="1778664740335" duration="80000" />
+      <workItem from="1778672415570" duration="3985000" />
+      <workItem from="1778752074755" duration="4553000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -203,7 +219,31 @@
       <option name="project" value="LOCAL" />
       <updated>1778481366066</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".">
+      <option name="closed" value="true" />
+      <created>1778487643393</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1778487643393</updated>
+    </task>
+    <task id="LOCAL-00005" summary=".">
+      <option name="closed" value="true" />
+      <created>1778579664903</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1778579664903</updated>
+    </task>
+    <task id="LOCAL-00006" summary=".">
+      <option name="closed" value="true" />
+      <created>1778752308432</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1778752308432</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
