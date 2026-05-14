@@ -1,0 +1,51 @@
+package Factura;
+
+import javax.sound.sampled.Line;
+import java.util.ArrayList;
+
+public class OrdenCompra {
+    private int id=0;
+    private ArrayList<LineaPedido> orden;
+    private double totalOrden;
+
+    public OrdenCompra(int id) {
+        this.id = id;
+        orden=new ArrayList<>();
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public ArrayList<LineaPedido> getOrdenes() {
+        return orden;
+    }
+
+    public void setOrdenes(ArrayList<LineaPedido> ordenes) {
+        this.orden = ordenes;
+    }
+
+    //Calcular el TotalDeOrden
+    public void calcularTotalOrden(){
+        for (LineaPedido pedidos: orden){
+            this.totalOrden+= pedidos.getSubTotal();
+        }
+    }
+
+    //Añadir Item a coleccion
+    public void añadirItem(int id, int cantidad, Productos productos){
+        orden.add(new LineaPedido(id, cantidad,  productos));
+    }
+
+    @Override
+    public String toString() {
+        return "OrdenCompra{" +
+                "id=" + id +
+                ", totalOrden=" + totalOrden +
+                '}';
+    }
+}

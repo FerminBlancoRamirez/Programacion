@@ -132,6 +132,27 @@ public class Peaje {
             return -1; // Si llega otro tipo de objeto
     }
 
+    //Metodo que al dar el nombre de un conductor te diga el precio total del peaje con sus vehiculos
+    public void costeConductor(Conductor conductor){
+        ArrayList<Vehiculo> vehiculosConductor=conductor.getVehiculos();
+        for (Vehiculo vehiculos:vehiculosConductor){
+            if (vehiculos instanceof Carro){
+                System.out.println("Por su carro tiene que pagar un peaje de: ");
+                System.out.println(calcularPeaje(vehiculos)+" euros");
+            } else if (vehiculos instanceof Camion) {
+                System.out.println("Por su camion tiene que pagar un peaje de: ");
+                System.out.println(calcularPeaje(vehiculos)+" euros");
+            }else if (vehiculos instanceof Moto){
+                System.out.println("Por su moto tiene que pagar un peaje de: ");
+                System.out.println(calcularPeaje(vehiculos)+" euros");
+            }else {
+                System.out.println("Vehiculo no identificado");
+                System.out.println("-------------------------------------------------------");
+                System.out.println("");
+            }
+        }
+    }
+
     /**
      * Método que muestra en pantalla los datos del peaje, el total de vehículos que
      * llegó al peaje discriminado por tipo y el total de dinero recaudado por la
