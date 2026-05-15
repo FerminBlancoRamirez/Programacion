@@ -13,6 +13,8 @@ public class Departamento {
      * @param municipios Parámetro que define los municipios que
      * hacen parte del departamento
      */
+
+    //La lista se pasa hecha
     public Departamento(String nombre, ArrayList<Municipio> municipios) {
         this.nombre = nombre;
         this.municipios = municipios;
