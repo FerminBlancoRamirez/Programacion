@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="180" />
+    <option name="cachedIndexableFilesCount" value="183" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -34,12 +34,12 @@
     &quot;assignee&quot;: &quot;FerminBlancoRamirez&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/FerminBlancoRamirez/Programacion.git",
-    "accountId": "e62fb170-b942-43b8-9942-ffa38ea38827"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FerminBlancoRamirez/Programacion.git&quot;,
+    &quot;accountId&quot;: &quot;9b38af2f-783a-48db-86a6-6137e0017286&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -55,37 +55,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FormacionFutbol.Testeo.executor": "Run",
-    "Application.Testeo.executor": "Run",
-    "Application.TesteoBiblioteca.executor": "Run",
-    "Application.TesteoCoche.executor": "Run",
-    "Application.TesteoCompo.executor": "Run",
-    "Application.TesteoPeaje.executor": "Run",
-    "Application.TesteoRecta.executor": "Run",
-    "Application.TesteoTrianguloDeCirculos.executor": "Run",
-    "Application.TesteoVehiculos.executor": "Debug",
-    "Application.geografia.Testeo.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FormacionFutbol.Testeo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAsignatura.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testeo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteoBiblioteca.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteoCoche.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteoCompo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteoPeaje.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteoRecta.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteoTrianguloDeCirculos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteoVehiculos.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.geografia.Testeo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.geografia.Testeo">
+}</component>
+  <component name="RunManager" selected="Application.TestAsignatura">
     <configuration name="FormacionFutbol.Testeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FormacionFutbol.Testeo" />
       <module name="Programacion" />
@@ -99,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="charlin.Testeo" />
+    <configuration name="TestAsignatura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cursos.TestAsignatura" />
       <module name="Programacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="charlin.*" />
+          <option name="PATTERN" value="cursos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteoBiblioteca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="municipal.TesteoBiblioteca" />
+    <configuration name="Testeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="charlin.Testeo" />
       <module name="Programacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="municipal.*" />
+          <option name="PATTERN" value="charlin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAsignatura" />
         <item itemvalue="Application.geografia.Testeo" />
         <item itemvalue="Application.FormacionFutbol.Testeo" />
         <item itemvalue="Application.Testeo" />
         <item itemvalue="Application.TesteoCoche" />
-        <item itemvalue="Application.TesteoBiblioteca" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +194,7 @@
       <workItem from="1778752074755" duration="4553000" />
       <workItem from="1778833594861" duration="1786000" />
       <workItem from="1779006561309" duration="1076000" />
+      <workItem from="1779086062445" duration="5808000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
