@@ -8,7 +8,6 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class VentanaPrincipal extends JFrame implements ActionListener {
-
     //Este es nuestro modelo de datos
     private ListaPersonas lista; // El objeto ListaPersonas de la aplicación
 
@@ -93,13 +92,13 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
 
         //Establece boton de cargar lista
         cargar=new JButton();
-        cargar.setText("Cargando lista");
+        cargar.setText("Cargar");
         cargar.setBounds(20,320,100,23);
         cargar.addActionListener(this);
 
         //Establece boton de guardar lista
         guardar=new JButton();
-        guardar.setText("Guardar lista");
+        guardar.setText("Guardar");
         guardar.setBounds(140, 320, 100, 23);
         guardar.addActionListener(this);
 
@@ -152,38 +151,30 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
             //Se invoca borrar lista
             borrarLista();
         }
+        if(evento.getSource()==cargar){
+            lista.cargarLista();
+            modelo.clear();
+
+            for (Persona p: lista.getListaPersonas()){
+                String elemento=p.getNombre();
+                modelo.addElement(elemento);
+            }
+
+            listaNombres.setModel(modelo);
+            JOptionPane.showMessageDialog(this, "Lista cargada con exito de lista.dat",
+                    "Cargar", JOptionPane.INFORMATION_MESSAGE);
+        }
+        if(evento.getSource()==guardar){
+            lista.guardarLista();
+            JOptionPane.showMessageDialog(this, "Lista guardada con exito en lista.dat",
+                    "Guardar", JOptionPane.INFORMATION_MESSAGE);
+        }
 
         //Añadir eventos de cargar y guardar coleccion
     }
 
-    //declarar metodos de cargar y guardar
-    public void guardarLista(){
-        try{
-            FileOutputStream archivo=new FileOutputStream("lista.dat");
-            ObjectOutputStream salida=new ObjectOutputStream(archivo);
-            salida.writeObject(this.lista);
-            salida.close();
-            System.out.println("Coleccion guardada con exito");
-        }catch (IOException e){
-            System.out.println("No se pudo escribir en el archivo"+ e.getMessage());
-        }
-    }
 
-    public void cargarLista(){
-        try {
-            FileInputStream archivo=new FileInputStream("lista.dat");
-            ObjectInputStream entrada=new ObjectInputStream(archivo);
-            this.lista=(ArrayList<Persona>) entrada.readObject();
-            entrada.close();
-            System.out.println("Coleccion cargada con exito");
-        }catch (FileNotFoundException e){
-            System.out.println("No se pudo leer el archivo");
-        }catch (IOException e){
-            System.out.println("Errr de entrada/salida");
-        }catch (Exception e){
-            System.out.println("Error al leer el archivo");
-        }
-    }
+
 
     /**
      * Método que agrega una persona al vector de personas y a la lista gráfica

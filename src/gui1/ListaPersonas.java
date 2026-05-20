@@ -49,7 +49,7 @@ public class ListaPersonas {
         }
     }
 
-    public void cargarColeccion(){
+    public void cargarLista(){
         try {
             FileInputStream archivo=new FileInputStream("lista.dat");
             ObjectInputStream entrada=new ObjectInputStream(archivo);
@@ -63,5 +63,11 @@ public class ListaPersonas {
         }catch (Exception e){
             System.out.println("Error al leer el archivo");
         }
+    }
+
+
+    // Añade esto dentro de ListaPersonas.java
+    public ArrayList<Persona> getListaPersonas() {
+        return this.listaPersonas;
     }
 }

@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="abefdd97-6b96-434a-8caf-be828302925f" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui1/ListaPersonas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui1/ListaPersonas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui1/VentanaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui1/VentanaPrincipal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="187" />
+    <option name="cachedIndexableFilesCount" value="191" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -69,6 +71,7 @@
     "Application.TesteoTrianguloDeCirculos.executor": "Run",
     "Application.TesteoVehiculos.executor": "Debug",
     "Application.geografia.Testeo.executor": "Run",
+    "Application.gui2.Testeo.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -83,11 +86,12 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestGui1">
+  <component name="RunManager" selected="Application.gui2.Testeo">
     <configuration name="FormacionFutbol.Testeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FormacionFutbol.Testeo" />
       <module name="Programacion" />
@@ -127,19 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="charlin.Testeo" />
-      <module name="Programacion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="charlin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="geografia.Testeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="geografia.Testeo" />
       <module name="Programacion" />
@@ -153,13 +144,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="gui2.Testeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui2.Testeo" />
+      <module name="Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.gui2.Testeo" />
         <item itemvalue="Application.TestGui1" />
         <item itemvalue="Application.TestAsignatura" />
         <item itemvalue="Application.geografia.Testeo" />
         <item itemvalue="Application.FormacionFutbol.Testeo" />
-        <item itemvalue="Application.Testeo" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +202,10 @@
       <workItem from="1779086062445" duration="6014000" />
       <workItem from="1779101313792" duration="15000" />
       <workItem from="1779171998652" duration="6158000" />
+      <workItem from="1779178260545" duration="68000" />
+      <workItem from="1779276299512" duration="1896000" />
+      <workItem from="1779278733244" duration="795000" />
+      <workItem from="1779279581466" duration="1233000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -255,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779097089004</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=".">
+      <option name="closed" value="true" />
+      <created>1779178308848</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779178308849</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
