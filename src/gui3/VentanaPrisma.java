@@ -5,49 +5,72 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class VentanaPrisma extends JFrame{
-    private JTextField txtLargo, txtAlto, txtAncho;
-    private JLabel lblVolumen, lblSuperficie;
+public class VentanaPrisma extends JFrame {
+    private JTextField txtAreaBase;
+    private JTextField txtAltura;
+    private JTextField txtPerimetroBase;
+    private JLabel lblSuperficie;
+    private JLabel lblVolumen;
     private JButton btnCalcular;
 
-    public VentanaPrisma(){
-        setTitle("Calcular Prisma");
-        setSize(350, 250);
+    public VentanaPrisma() {
+        // Configuración de la ventana
+        setTitle("Cálculo de Prisma");
+        setSize(400, 300);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(new GridLayout(6, 2, 10, 10));
 
-        add(new JLabel("  Alto:"));
-        txtAlto = new JTextField();
-        add(txtAlto);
+        // Componentes de entrada
+        add(new JLabel(" Área de la Base:"));
+        txtAreaBase = new JTextField();
+        add(txtAreaBase);
 
-        add(new JLabel("  Ancho:"));
-        txtAncho = new JTextField();
-        add(txtAncho);
+        add(new JLabel(" Altura:"));
+        txtAltura = new JTextField();
+        add(txtAltura);
 
-        add(new JLabel(" Largo:"));
-        txtLargo=new JTextField();
-        add(txtLargo);
+        add(new JLabel(" Perímetro de la Base:"));
+        txtPerimetroBase = new JTextField();
+        add(txtPerimetroBase);
 
+        // Botón de acción
         btnCalcular = new JButton("Calcular");
-        add(btnCalcular);
         add(new JLabel(""));
+        add(btnCalcular);
 
-        add(new JLabel("  Volumen:"));
-        lblVolumen = new JLabel("0.0");
-        add(lblVolumen);
-
-        add(new JLabel("  Superficie:"));
-        lblSuperficie = new JLabel("0.0");
+        // Componentes de salida
+        add(new JLabel(" Superficie:"));
+        lblSuperficie = new JLabel("-");
         add(lblSuperficie);
 
+        add(new JLabel(" Volumen:"));
+        lblVolumen = new JLabel("-");
+        add(lblVolumen);
+
+        // Evento del botón
         btnCalcular.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                
+                try {
+                    double areaBase = Double.parseDouble(txtAreaBase.getText());
+                    double altura = Double.parseDouble(txtAltura.getText());
+                    double perimetroBase = Double.parseDouble(txtPerimetroBase.getText());
+
+                    // Crear la instancia de tu clase prisma (ajusta a mayúscula si renombras la clase)
+                    prisma p = new prisma(areaBase, altura, perimetroBase);
+
+                    // Mostrar resultados
+                    lblSuperficie.setText(String.format("%.2f", p.getSuperficie()));
+                    lblVolumen.setText(String.format("%.2f", p.getVolumen()));
+
+                } catch (NumberFormatException ex) {
+                    JOptionPane.showMessageDialog(VentanaPrisma.this,
+                            "Por favor, asegúrate de rellenar todos los campos con números válidos.",
+                            "Error de datos",
+                            JOptionPane.ERROR_MESSAGE);
+                }
             }
         });
-
-
     }
 }

@@ -53,8 +53,8 @@ public class VentanaPiramide extends JFrame {
                     Piramide piramide = new Piramide(base, altura);
 
                     lblApotema.setText(String.format("%.2f", piramide.calcularApotema()));
-                    lblVolumen.setText(String.format("%.2f", piramide.calcularVolumen()));
-                    lblSuperficie.setText(String.format("%.2f", piramide.calcularSuperficie()));
+                    lblVolumen.setText(String.format("%.2f", piramide.getVolumen()));
+                    lblSuperficie.setText(String.format("%.2f", piramide.getSuperficie()));
                 } catch (NumberFormatException ex) {
                     JOptionPane.showMessageDialog(null, "Por favor, introduce valores numéricos válidos.", "Error", JOptionPane.ERROR_MESSAGE);
                 }

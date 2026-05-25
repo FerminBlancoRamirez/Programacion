@@ -43,8 +43,8 @@ public class VentanaEsfera extends JFrame {
 
                     Esfera esfera = new Esfera(radio);
 
-                    lblVolumen.setText(String.format("%.2f", esfera.calcularVolumen()));
-                    lblSuperficie.setText(String.format("%.2f", esfera.calcularSuperficie()));
+                    lblVolumen.setText(String.format("%.2f", esfera.getVolumen()));
+                    lblSuperficie.setText(String.format("%.2f", esfera.getSuperficie()));
                 } catch (NumberFormatException ex) {
                     JOptionPane.showMessageDialog(null, "Por favor, introduce un valor numérico válido.", "Error", JOptionPane.ERROR_MESSAGE);
                 }

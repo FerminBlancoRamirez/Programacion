@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class VentanaFiguras extends JFrame {
     // Componentes que compartirán todas las ventanas de figuras
-    protected JButton btnCilindro, btnPiramide, btnEsfera, btnCerrar;
+    protected JButton btnCilindro, btnPiramide, btnEsfera, btnCubo, btnPrisma, btnCerrar;
     protected JPanel panelAtributos;
 
 
@@ -28,6 +28,10 @@ public class VentanaFiguras extends JFrame {
         add(btnEsfera);
         btnPiramide= new JButton("Piramide");
         add(btnPiramide);
+        btnCubo= new JButton("Cubo");
+        add(btnCubo);
+        btnPrisma= new JButton("Prisma");
+        add(btnPrisma);
         btnCerrar=new JButton("Cerrar");
         add(btnCerrar);
 
@@ -41,6 +45,14 @@ public class VentanaFiguras extends JFrame {
 
         btnCilindro.addActionListener(e->{
             new VentanaCilindro().setVisible(true);
+        });
+
+        btnCubo.addActionListener(e->{
+            new VentanaCubo().setVisible(true);
+        });
+
+        btnPrisma.addActionListener(e->{
+            new VentanaPrisma().setVisible(true);
         });
 
         btnCerrar.addActionListener(e->System.exit(0));

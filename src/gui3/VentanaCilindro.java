@@ -48,8 +48,8 @@ public class VentanaCilindro extends JFrame {
 
                     Cilindro cilindro = new Cilindro(radio, altura);
 
-                    lblVolumen.setText(String.format("%.2f", cilindro.calcularVolumen()));
-                    lblSuperficie.setText(String.format("%.2f", cilindro.calcularSuperficie()));
+                    lblVolumen.setText(String.format("%.2f", cilindro.getVolumen()));
+                    lblSuperficie.setText(String.format("%.2f", cilindro.getSuperficie()));
                 } catch (NumberFormatException ex) {
                     JOptionPane.showMessageDialog(null, "Por favor, introduce valores numéricos válidos.", "Error", JOptionPane.ERROR_MESSAGE);
                 }
