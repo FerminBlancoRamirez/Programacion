@@ -6,6 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class VentanaIngreso extends JFrame implements ActionListener{
@@ -86,6 +87,16 @@ public class VentanaIngreso extends JFrame implements ActionListener{
             String nombre=txtNombre.getText();
             String apellidos=txtApellidos.getText();
             String DNI=txtDNI.getText();
+            SimpleDateFormat formateador=new SimpleDateFormat("yyyy-MM-dd");
+            String fechaIngresoTexto=txtFecha.getText();
+            Date fechaIngreso=null;
+            try{
+                fechaIngreso=formateador.parse(fechaIngresoTexto);
+                huesped.setFechaIngreso(fechaIngreso);
+            }catch (java.text.ParseException a){
+                JOptionPane.showMessageDialog(this, "Por favor, introduce la fecha en formato aaaa-mm-dd");
+                return;
+            }
             huesped=new huesped(nombre, apellidos, DNI);
         } else if (e.getSource()==btnCancelar) {
             accionMensaje=false;
