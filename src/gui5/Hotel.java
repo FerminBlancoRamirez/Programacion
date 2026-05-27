@@ -21,6 +21,14 @@ public class Hotel {
         habitaciones.add(new habitacionHotel(10, true, 160));
     }
 
+    public ArrayList<habitacionHotel> getHabitaciones() {
+        return habitaciones;
+    }
+
+    public void setHabitaciones(ArrayList<habitacionHotel> habitaciones) {
+        this.habitaciones = habitaciones;
+    }
+
     public String buscarFechaIngresoHabitacion(int numero) {
         for (int i = 0; i < habitaciones.size(); i++) { /* Recorre el vector de habitaciones */
             // Obtiene un elemento del vector

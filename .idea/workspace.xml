@@ -6,10 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="abefdd97-6b96-434a-8caf-be828302925f" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui3/Prisma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui3/Prisma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui3/cubo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui3/cubo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui4/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui4/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui4/VentanaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui4/VentanaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui3/Cilindro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui3/Cubo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui3/Esfera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui3/FiguraGeometrica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui3/Piramide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui3/Prisma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui3/Testeo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui3/VentanaCilindro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui3/VentanaCubo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui3/VentanaEsfera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui3/VentanaFiguras.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui3/VentanaPiramide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui3/VentanaPrisma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui5/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui5/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui5/VentanaHabitaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui5/VentanaHabitaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui5/VentanaIngreso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui5/VentanaIngreso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui5/VentanaPrincipal.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +51,12 @@
     &quot;assignee&quot;: &quot;FerminBlancoRamirez&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/FerminBlancoRamirez/Programacion.git&quot;,
-    &quot;accountId&quot;: &quot;9b38af2f-783a-48db-86a6-6137e0017286&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/FerminBlancoRamirez/Programacion.git",
+    "accountId": "e62fb170-b942-43b8-9942-ffa38ea38827"
   }
-}</component>
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -59,55 +72,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FormacionFutbol.Testeo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestAsignatura.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestGui1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestGui4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Testeo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteoBiblioteca.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteoCoche.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteoCompo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteoPeaje.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteoRecta.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteoTrianguloDeCirculos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteoVehiculos.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.geografia.Testeo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.gui2.Testeo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FormacionFutbol.Testeo.executor": "Run",
+    "Application.TestAsignatura.executor": "Run",
+    "Application.TestGui1.executor": "Run",
+    "Application.TestGui4.executor": "Run",
+    "Application.Testeo.executor": "Run",
+    "Application.TesteoBiblioteca.executor": "Run",
+    "Application.TesteoCoche.executor": "Run",
+    "Application.TesteoCompo.executor": "Run",
+    "Application.TesteoPeaje.executor": "Run",
+    "Application.TesteoRecta.executor": "Run",
+    "Application.TesteoTrianguloDeCirculos.executor": "Run",
+    "Application.TesteoVehiculos.executor": "Debug",
+    "Application.geografia.Testeo.executor": "Run",
+    "Application.gui2.Testeo.executor": "Run",
+    "Application.gui5.Testeo.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.TestGui4">
-    <configuration name="TestAsignatura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cursos.TestAsignatura" />
-      <module name="Programacion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cursos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.gui5.Testeo">
     <configuration name="TestGui1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gui1.TestGui1" />
       <module name="Programacion" />
@@ -160,13 +161,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="gui5.Testeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui5.Testeo" />
+      <module name="Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.gui5.Testeo" />
         <item itemvalue="Application.TestGui4" />
         <item itemvalue="Application.Testeo" />
         <item itemvalue="Application.gui2.Testeo" />
         <item itemvalue="Application.TestGui1" />
-        <item itemvalue="Application.TestAsignatura" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +228,7 @@
       <workItem from="1779788729583" duration="24000" />
       <workItem from="1779790597167" duration="10000" />
       <workItem from="1779881124447" duration="4497000" />
+      <workItem from="1779894944305" duration="13505000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
