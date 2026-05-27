@@ -88,33 +88,32 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
             ventanaNomina.setVisible(true); // Se hace visible la ventana
         }
         if (evento.getSource() == itemMenu3) { /* Se selecciona el ítem de menú 3 */
-            JFileChooser fc = new JFileChooser(); /* Crea un selector de archivo */
-            fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-            // Es un selector de directorio
-            int respuesta = fc.showOpenDialog(this); /* Se muestra el selector de directorio en pantalla */
-            if (respuesta == JFileChooser.APPROVE_OPTION) { /* Si se pulsa aceptar en el selector */
-                File directorioElegido = fc.getSelectedFile(); /* Se obtiene el directorio seleccionado */
-                String nombre = directorioElegido.getName(); /* Se obtiene el nombre del directorio */
-                try {
-                    // Convierte los datos de los empleados en texto
-                    String contenido = empleados.convertirTexto();
-                    // Se asigna el nombre del archivo de texto
-                    File file = new File(nombre + "\\" + "Nomina.txt");
-                    file.createNewFile(); // Se crea el archivo de texto
-                    FileWriter fw = new FileWriter(file);
-                    BufferedWriter bw = new BufferedWriter(fw); /* Se crea el flujo de escritura de datos */
-                    bw.write(contenido); /* Se escriben los datos en el archivo */
-                    bw.close(); // Se cierra el archivo
-                    String texto = "El archivo de la nómina Nomina.txt se ha creado en " + nombre;
-                    // Mensaje de confirmación532 Ejercicios de programación orientada a objetos con
-                    // Java y UML
-                    JOptionPane.showMessageDialog(this, texto, "Mensaje", JOptionPane.INFORMATION_MESSAGE, null);
-                } catch (Exception e) {
-                    /*
-                     * En caso que se presente una excepción en la creación y escritura del archivo
-                     */
-                    e.printStackTrace();
+            try {
+                // 1. Convertimos los datos de los empleados en texto usando el método optimizado
+                String contenido = empleados.convertirTexto();
+
+                // 2. Definimos el archivo directamente en la raíz del proyecto.
+                // Al no poner ninguna ruta absoluta (como C:\...), Java toma por defecto la raíz del proyecto.
+                File file = new File("Nomina.txt");
+
+                // 3. Escribimos el contenido de forma moderna y eficiente
+                // El bloque try-with-resources cierra automáticamente los flujos (FileWriter/BufferedWriter) al terminar.
+                try (FileWriter fw = new FileWriter(file);
+                     BufferedWriter bw = new BufferedWriter(fw)) {
+                    bw.write(contenido);
                 }
+
+                // 4. Obtenemos la ruta absoluta real donde se guardó para mostrársela al usuario
+                String rutaAbsoluta = file.getAbsolutePath();
+                String texto = "El archivo de la nómina 'Nomina.txt' se ha creado con éxito.\n"
+                        + "Ubicación: " + rutaAbsoluta;
+
+                JOptionPane.showMessageDialog(this, texto, "Archivo Guardado", JOptionPane.INFORMATION_MESSAGE);
+
+            } catch (Exception e) {
+                JOptionPane.showMessageDialog(this, "Error al guardar el archivo: " + e.getMessage(),
+                        "Error", JOptionPane.ERROR_MESSAGE);
+                e.printStackTrace();
             }
         }
     }

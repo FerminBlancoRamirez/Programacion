@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="abefdd97-6b96-434a-8caf-be828302925f" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui3/Prisma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui3/Prisma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui3/cubo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui3/cubo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui4/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui4/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui4/VentanaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui4/VentanaPrincipal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +64,7 @@
     &quot;Application.FormacionFutbol.Testeo.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestAsignatura.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestGui1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestGui4.executor&quot;: &quot;Run&quot;,
     &quot;Application.Testeo.executor&quot;: &quot;Run&quot;,
     &quot;Application.TesteoBiblioteca.executor&quot;: &quot;Run&quot;,
     &quot;Application.TesteoCoche.executor&quot;: &quot;Run&quot;,
@@ -89,7 +94,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Testeo">
+  <component name="RunManager" selected="Application.TestGui4">
     <configuration name="TestAsignatura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cursos.TestAsignatura" />
       <module name="Programacion" />
@@ -116,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gui3.Testeo" />
+    <configuration name="TestGui4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui4.TestGui4" />
       <module name="Programacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gui3.*" />
+          <option name="PATTERN" value="gui4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="geografia.Testeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geografia.Testeo" />
+    <configuration name="Testeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui3.Testeo" />
       <module name="Programacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="geografia.*" />
+          <option name="PATTERN" value="gui3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestGui4" />
         <item itemvalue="Application.Testeo" />
         <item itemvalue="Application.gui2.Testeo" />
         <item itemvalue="Application.TestGui1" />
         <item itemvalue="Application.TestAsignatura" />
-        <item itemvalue="Application.geografia.Testeo" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +209,11 @@
       <workItem from="1779276299512" duration="1896000" />
       <workItem from="1779278733244" duration="795000" />
       <workItem from="1779279581466" duration="1233000" />
+      <workItem from="1779708448100" duration="10000" />
+      <workItem from="1779778941051" duration="3924000" />
+      <workItem from="1779788729583" duration="24000" />
+      <workItem from="1779790597167" duration="10000" />
+      <workItem from="1779881124447" duration="4497000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -269,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779178308849</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/gui3/Cilindro.java&#10;#&#9;src/gui3/Esfera.java&#10;#&#9;src/gui3/FiguraGeometrica.java&#10;#&#9;src/gui3/Piramide.java&#10;#&#9;src/gui3/Testeo.java&#10;#&#9;src/gui3/VentanaCilindro.java&#10;#&#9;src/gui3/VentanaEsfera.java&#10;#&#9;src/gui3/VentanaFiguras.java&#10;#&#9;src/gui3/VentanaPiramide.java&#10;#&#9;src/gui3/VentanaPrisma.java">
+      <option name="closed" value="true" />
+      <created>1779708355808</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1779708355808</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

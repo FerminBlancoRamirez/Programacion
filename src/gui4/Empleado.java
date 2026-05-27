@@ -3,14 +3,14 @@ package gui4;
 public class Empleado {
     private String nombre;
     private String apellidos;
-    private enum Cargo {
+    public enum Cargo {
         directivo, estrategico, operativo
     }
-    private Cargo cargo;
-    private enum Genero{
+    public Cargo cargo;
+    public enum Genero{
         masculino, femenino
     }
-    private Genero genero;
+    public Genero genero;
     private double salarioDiario = 0;
     private int diasTrabajados = 0;
     private double otrosIngresos = 0;
